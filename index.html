@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checklist de Tareas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Checklist de Tareas</h1>
+    <div class="new-task">
+      <input type="text" id="task-input" placeholder="Nueva tarea">
+      <input type="file" id="task-image" accept="image/*">
+      <button id="add-task-btn">Agregar</button>
+    </div>
+    <ul id="task-list"></ul>
+    <button id="save-pdf-btn">Guardar en PDF</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
